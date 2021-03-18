@@ -1,0 +1,570 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    box-sizing: border-box;
+    font-family: "Karla", 'Arial', 'sans-serif';
+    line-height: 1.8;
+    font-size: 16px;
+    background: #fafafa;
+    color: #F0F0F0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+.clear {
+    clear: both;
+}
+.menu {
+    display: none;
+    font-size: 24px;
+    color: #fff;
+    float: right;
+}
+
+
+/*----------------------------HEADER-------------------------------*/
+.header-sec {
+    background-color: #30324B;
+    padding: 20px 0px;
+
+}
+
+.header-sec .sticky {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 2000000;
+    background-color: #30324B;
+    padding: 20px 0px;
+}
+
+.header-sec .head .logo-part {
+    float: left;
+}
+
+.header-sec .head .nav-bar ul {
+    float: right;
+}
+
+.header-sec .head .nav-bar ul li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 30px;
+}
+
+.header-sec .head .nav-bar ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 200;
+}
+
+.header-sec .head .nav-bar ul li a:hover {
+    color: #e84545;
+}
+
+
+/*-------------------------------------------------------------------------------*/
+
+
+
+/*---------------------------------BANNER SECTION---------------------------------*/
+
+
+
+.banner-sec {
+    padding-top: 90px;
+}
+
+.row::before,
+.row::after {
+
+    content: " ";
+    display: table;
+
+}
+
+.banner-sec .banner .bold,
+.service-sec .service .bold {
+
+    position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
+    font-size: 250px;
+    color: #f0f0f0;
+    font-weight: 700;
+    text-align: center;
+    margin: -60px auto 0px auto;
+    width: 100%;
+
+}
+
+.banner-sec .banner .banner-left1 {
+    padding-top: 90px;
+    float: left;
+    position: absolute;
+}
+
+.banner-sec .banner .banner-left2 {
+    padding-top: 90px;
+    float: left;
+}
+
+.banner-sec .banner .banner-left1 img {
+    width: 100%;
+    height: 600px;
+    position: relative;
+    z-index: 1000;
+}
+
+.banner-sec .banner .banner-left2 img {
+    width: 100%;
+    height: 600px;
+    position: relative;
+    z-index: 1000;
+}
+
+.banner-sec .banner .desc .banner-right1 , .banner-sec .banner .desc .banner-right2 {
+    padding-top: 140px;
+    float: left;
+    color: #000;
+}
+
+.banner-sec .banner .desc .banner-right1 span {
+    display: block;
+    margin-bottom: 0;
+    color: #000;
+    font-size: 50px;
+    font-family: "Playfair Display", 'Georgia', 'serif';
+}
+
+.banner-sec .banner .desc .banner-right2 {
+    padding-top: 140px;
+    color: #000;
+    float: left;
+}
+
+.banner-sec .banner .desc .banner-right2 span {
+    display: block;
+    margin-bottom: 0;
+    color: #000;
+    font-size: 50px;
+    font-family: "Playfair Display", 'Georgia', 'serif';
+}
+
+.banner-sec .banner .desc .roted {
+    float: left;
+    padding-left: 30px;
+
+}
+
+.banner-sec .banner .desc .roted .heading {
+    font-size: 14px;
+    display: block;
+    font-family: 'Karla', 'Arial', sans-serif;
+    color: #3B435E;
+    text-transform: uppercase;
+    letter-spacing: 1em;
+    transform: rotate(90deg);
+    transform-origin: left top 0;
+    position: relative;
+    top: 20px;
+}
+
+.banner-sec .banner .desc .roted .heading::after {
+    position: absolute;
+    top: 8px;
+    right: -40px;
+    content: '';
+    background: #000;
+    width: 40px;
+    height: 1px;
+}
+
+.banner-sec .banner .desc p {
+    display: block;
+    color: #828285;
+    width: 100%;
+    padding-left: 100px;
+    float: left;
+    font-size: 16px;
+    font-family: 'Karla', 'Arial', 'sans-serif';
+}
+
+.banner-sec .banner .desc p a {
+    color: #D090F8;
+}
+
+.banner-sec .banner .desc .icons {
+    float: left;
+    padding: 30px 0px 30px 80px;
+    display: block;
+    width: 100%;
+}
+
+.banner-sec .banner .desc .icons ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.banner-sec .banner .desc .icons ul li a {
+    border: 1px solid #D090F8;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 24px;
+    display: inline-block;
+    color: #D090F8;
+    text-align: center;
+    margin-right: 1px;
+}
+
+/*
+.owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next, .owl-carousel button.owl-dot {
+    background: none;
+    color: #000;
+    border: none;
+    padding: 0 !important;
+    font-size: 24px;
+}
+*/
+.banner-sec .banner .desc .link {
+    display: block;
+    padding-left: 80px;
+    margin-top: 30px
+}
+
+.banner-sec .banner .desc .link a {
+    border: 1px solid #D090F8;
+    padding: 10px;
+    color: #D090F8;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #828285;
+    font-weight: 700;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+.banner-sec .banner .desc .link a:hover {
+    background-color: #D090F8;
+    color: #fff;
+}
+
+.banner-sec .banner .owl-nav {
+    display: none;
+}
+
+
+/*----------------------------------------------------------------*/
+
+
+/*----------------------------------SERVICE SECTION-----------------------------------*/
+
+
+.service-sec {
+    padding-top: 150px;
+    color: #323232;
+    padding-bottom: 60px;
+}
+
+.service-sec .service .roted {
+    float: left;
+    /*
+transform: rotate(90deg);
+width: 60%;
+*/
+}
+
+.service-sec .service .service-right {
+    padding-top: 85px;
+}
+
+.service-sec .service .service-right img {
+    height: 700px;
+}
+
+.service-sec .service .desc {
+    padding-top: 130px;
+}
+
+.service-sec .service .desc h2 {
+    width: 100%;
+    padding-bottom: 100px;
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #000;
+    position: relative;
+    font-family: 'Playfair Display', 'Georgia', 'serif';
+}
+
+.service-sec .service .roted .heading {
+    font-size: 14px;
+    display: block;
+    font-family: 'Karla', 'Arial', sans-serif;
+    color: #3B435E;
+    text-transform: uppercase;
+    letter-spacing: 1em;
+    transform: rotate(90deg);
+    transform-origin: left top 0;
+    position: relative;
+    top: 215px;
+    left: -55px;
+}
+
+.service-sec .service .roted .heading::after {
+    position: absolute;
+    top: 8px;
+    right: -40px;
+    content: '';
+    background: #000;
+    width: 40px;
+    height: 1px;
+}
+
+.service-sec .service .desc p {
+    display: block;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+    color: #bfbfbf;
+    font-weight: 600;
+}
+
+.service-sec .service .service-left h4 {
+    color: #323232;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding-bottom: 30px;
+    font-family: 'Karla', 'Arial', 'sans-serif';
+    font-weight: 700;
+}
+
+.service-sec .service .service-left ul {
+    margin-bottom: 30px;
+}
+
+.service-sec .service .service-left ul li {
+    padding-bottom: 20px;
+    margin-left: 43px;
+    font-size: 14px;
+    letter-spacing: 3px;
+    color: #bfbfbf;
+    font-weight: 600;
+    list-style: none;
+}
+
+.service-sec .service .service-left ul li::before {
+    content: '\2022';
+    color: #000;
+    display: inline-block;
+    width: 1.5em;
+    margin-left: -1em;
+}
+
+
+
+/*-----------------------------------------------------------------------------*/
+
+
+/*------------------------------------FOOTER SECTION---------------------------------------*/
+
+.footer-upper {
+    padding: 70px 0px 110px 0px;
+    background-color: #3a3e64;
+    color: #fff;
+    text-align: center;
+}
+
+.footer-upper .ftr h4 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.footer-upper .ftr h5 {
+    color: #afb0bc;
+    margin-bottom: 12px;
+    font-size: 13px;
+}
+
+.footer-upper .ftr ul li {
+    display: inline-block;
+    list-style: none;
+}
+
+.footer-upper .ftr ul li a {
+    text-decoration: none;
+    border: 1px solid #c6cacc;
+    margin-right: 5px;
+    padding: 7px 12px;
+    font-size: 18px;
+    color: #c6cacc;
+}
+
+.footer-upper .ftr ul li a:hover {
+    color: #e84545;
+    border: 1px solid #e84545;
+}
+
+
+.footer-lower {
+    background-color: #313454;
+    padding: 30px 0px;
+    color: #fff;
+    text-align: center;
+}
+
+.footer-lower h6 {
+    color: #afb0bc;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+/*
+span {
+    color: #fff;
+}
+*/
+
+.footer-lower img {
+    width: 15px;
+    height: 15px;
+}
+
+
+/*----------------------------------------------------------------------*/
+
+
+/*------------------------------------BOOTSTRAPE MEDIAQUARY-----------------------------------*/
+
+
+/*--------Medium Devise(max-width:1199px,minimum-width:992px)----------*/
+
+
+@media only screen and (max-width:1199px) {
+
+    .banner-sec .banner .banner-left1 img,
+    .banner-sec .banner .banner-left2 img {
+        width: 95%;
+        height: 500px;
+    }
+
+    .service-sec .service .desc {
+        padding-left: 10px;
+    }
+
+    .service-sec .service .service-right {
+        padding-top: 130px;
+    }
+}
+
+@media only screen and (max-width:1090px) {
+
+    .banner-sec .banner .bold,
+    .service-sec .service .bold {
+        font-size: 230px;
+    }
+}
+
+
+/*--------Medium Devise(max-width:991px,minimum-width:768px)----------*/
+
+
+@media only screen and (max-width:991px) {
+        .menu {
+        display: block;
+    }
+
+    .menu:hover {
+        color: #e84545;
+    }
+       .nav-bar ul {
+        position: absolute;
+        top: 75px;
+        right: 0;
+        width: 100%;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.3);
+        display: none;
+           padding: 20px 10px;
+    }
+
+    .nav-bar ul li {
+        padding: 10px 15px;
+        float: none;
+        color: white;
+        border-bottom: 1px solid #fff;
+    }
+
+    .nav-bar ul li a {
+        color: white;
+    }
+
+    .banner-sec .banner .banner-left1 img,
+    .banner-sec .banner .banner-left2 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .banner-sec .banner .bold,
+    .service-sec .service .bold {
+        font-size: 190px;
+    }
+
+    .service-sec .service .service-right {
+        padding-top: 20px;
+    }
+
+    .service-sec .service .service-right img {
+        height: auto;
+        width: 100%;
+    }
+
+    .footer-upper .ftr {
+        margin-bottom: 50px;
+    }
+}
+
+
+/*--------Medium Devise(max-width:768px,minimum-width:320px)----------*/
+
+
+@media only screen and (max-width:767px) {
+
+    .banner-sec .banner .bold,
+    .service-sec .service .bold {
+        font-size: 60px;
+        margin: 15px auto 0px auto;
+    }
+
+    .banner-sec .banner .desc .banner-right1
+    .banner-sec .banner .desc .banner-right2 {
+        padding-top: 75px;
+    }
+    .service-sec {
+    padding-top: 80px;
+    color: #323232;
+    padding-bottom: 60px;
+}
+    .service-sec .service .desc h2 {
+    padding-bottom: 65px;
+}
+}
