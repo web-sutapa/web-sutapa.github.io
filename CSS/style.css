@@ -371,6 +371,8 @@ section.services .service-item p {
 section.services .service-item {
     text-align: center;
     margin-bottom: 50px;
+    border: 2px solid #292b86;
+padding: 25px;
 }
 section.services a {
     text-decoration: none;
