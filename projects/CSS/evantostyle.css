@@ -1,0 +1,1676 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #545454;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+p {
+    margin: 0;
+    padding: 0;
+}
+.menu {
+    display: none;
+    font-size: 24px;
+    color: #fff;
+    float: right;
+}
+
+/*----------------Header Section--------#b7bdde;----------*/
+
+
+
+.header-sec {
+ background-color: #30324B;
+    padding: 20px 0px;
+   
+}
+.header-sec .sticky{
+    position: fixed;
+     width: 100%;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 2000000;
+       background-color: #30324B;
+    padding: 20px 0px;
+}
+
+.header-sec  .head .nav-bar ul {
+    float: right;
+}
+
+.header-sec  .head .nav-bar ul li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 30px;
+}
+
+.header-sec .head .nav-bar ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 200;
+}
+
+.header-sec  .head .nav-bar ul li a:hover {
+    color: #e84545;
+}
+
+
+
+/*--------------------------------------------------------*/
+
+
+
+/*-------------------BANNER SECTION-------------------------*/
+
+
+
+.banner .flexslider .slides > li {
+
+    display: inherit;
+
+}
+
+.banner .flexslider .slides img {
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner .flexslider {
+    margin: 0;
+    border: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
+
+
+
+/*.banner .flex-direction-nav .flex-prev {
+    display: none;
+}*/
+
+
+.banner .flex-control-nav {
+    display: none;
+}
+
+.banner .flex-caption {
+    width: 100%;
+    padding: 20px;
+    left: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, .5);
+    color: #fff;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, .3);
+    font-size: 14px;
+    line-height: 18px;
+    /*    position: absolute;*/
+    height: 800px;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    /*    height: 100%;*/
+    z-index: 2000;
+    top: 0;
+    left: 0;
+
+}
+
+
+.banner .flex-control-paging li a {
+    background: #fff;
+}
+
+.banner .flex-control-paging li a.flex-active {
+    background: #000;
+    background: rgba(0, 0, 0, 0.9);
+    cursor: default;
+}
+
+.banner .heading {
+    text-align: center;
+
+}
+
+.banner .heading p {
+    text-transform: uppercase;
+    line-height: 43px;
+    color: #FFFFFF;
+    font-size: 36px;
+    font-family: bebas-neue, sans-serif;
+    font-weight: 400;
+    margin-top: 12%;
+}
+
+.banner .heading .book {
+    color: #fff;
+    font-size: 36px;
+}
+
+.banner .heading h1 {
+    margin-top: 10%;
+    font-size: 55px;
+    text-transform: uppercase;
+    line-height: 86px;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: bebas-neue, sans-serif;
+    font-weight: 400;
+}
+
+.banner .heading h2 {
+    margin: 1% 0%;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: bebas-neue, sans-serif;
+    font-weight: 400;
+    line-height: 43px;
+
+}
+
+.banner .flex-caption .form {
+    margin: 30px 0px;
+}
+
+.banner .flex-caption .form .frm {
+    color: #fff;
+    padding: 6px 80px 15px 6px;
+    text-align: left;
+    margin-right: 20px;
+    font-size: 14px;
+    background: transparent;
+    border: 1px solid #fff;
+    font-family: 'lato', 'sans-serif';
+    font-style: italic;
+    font-weight: 400;
+}
+
+.banner .flex-caption .form .frm:hover {
+    border: 1px solid #4F4F4F;
+    background-color: #fff;
+    color: #4F4F4F;
+    font-style: bold;
+}
+
+.banner .flex-caption .form .sbtn {
+    padding: 10px 25px;
+    font-size: 14px;
+    border: 1px solid #fff;
+    font-size: 18px;
+    background: transparent;
+    font-family: bebas-neue, sans-serif;
+    color: #fff;
+    margin-top: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.banner .flex-caption .form .sbtn:hover {
+    border: 1px solid #fff;
+    background-color: #29ABE2;
+}
+
+.banner .flex-direction-nav a {
+    height: 49px;
+}
+
+/*--------------------------------------------------------*/
+
+/*-------------------------FEATURE SECTION----------------------*/
+
+
+
+.feature-sec {
+    text-align: center;
+    background-color: #29ABE2;
+    padding: 90px 0;
+}
+
+.feature-sec .feature-count .heading h1 {
+    font-size: 44px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: bebas-neue, sans-serif;
+}
+
+.feature-sec .feature-count .features {
+    text-align: center;
+    margin: 4% 0;
+}
+
+.feature-sec .feature-count .features .cell {
+    color: #fff;
+}
+
+.feature-sec .feature-count .features .cell h2 {
+    text-transform: uppercase;
+    font-size: 28px;
+    padding: 30px 0px;
+    font-weight: 400;
+    font-family: 'Agency FB';
+}
+
+.feature-sec .feature-count .features .cell p {
+    font-size: 16px;
+    font-family: bebas-neue, sans-serif;
+    width: 88%;
+    margin: 0 auto;
+}
+
+.feature-sec .feature-count .features .cell .icon {
+    color: #fff;
+    font-size: 30px;
+
+}
+
+/*------------------------------------------------------*/
+
+/*-----------------------VEDIO SECTION------------------------*/
+
+.vedio-sec {
+    background-color: #E4DFDF;
+    text-align: center;
+    padding: 90px 0px;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 2000;
+    top: 0;
+    left: 0;
+}
+
+.vedio-sec .vedio-para h1 {
+    font-size: 44px;
+    color: #29ABE2;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: bebas-neue, sans-serif;
+}
+
+.vedio-sec .vedio-para h2 {
+
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Agency FB';
+    line-height: 36px;
+    letter-spacing: 0px;
+    color: #4B5B6B;
+    font-size: 30px;
+    padding: 20px 0px 50px 0px;
+}
+
+.vedio-sec .vedio-para .show img {
+    padding-right: 95px;
+    padding-top: 20px;
+}
+
+.vedio-sec .vedio-para .show .vedio {
+    margin-left: 95px;
+}
+
+/*-----------------------------------------------------*/
+
+/*-----------------COURSE SECTION--------------------------*/
+
+.course-sec {
+    background-color: #29ABE2;
+    padding: 70px 0px;
+    text-align: center;
+}
+
+.course-sec .courses h1 {
+    font-size: 44px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: bebas-neue, sans-serif;
+}
+
+.course-sec .courses .pp {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Agency FB';
+    line-height: 36px;
+    letter-spacing: 0px;
+    color: #fff;
+    font-size: 30px;
+    padding: 20px 0px 50px 0px;
+
+}
+
+.course-sec .courses .album {
+    margin-bottom: 50px;
+}
+
+.course-sec .courses .album .pic-para-set {
+    background-color: #fff;
+    text-align: center;
+    display: table;
+    margin: 0px 7px;
+}
+
+.course-sec .courses .album .pic-para-set .pic-set img {
+    width: 96%;
+    margin: 7px 0px 25px 0px;
+}
+
+.course-sec .courses .album .pic-para-set .para-set h2 {
+    text-transform: uppercase;
+    font-family: Agency FB;
+    line-height: 36px;
+    text-align: center;
+    color: #4B5B6B;
+    font-size: 30px;
+    font-weight: 400;
+    padding-bottom: 15px;
+}
+
+.course-sec .courses .album .pic-para-set .para-set p {
+    line-height: 22px;
+    text-align: center;
+    color: #4B5B6B;
+    font-size: 16px;
+    font-family: lato, sans-serif;
+    font-weight: 400;
+    margin: 0px 7px 30px 7px;
+    width: 91%;
+}
+
+/*-----------------------------------------------------------*/
+
+/*-------------------------TEACHER SECTION----------------------------*/
+
+.teacher-sec {
+    background-color: #fff;
+    text-align: center;
+
+}
+
+.teacher-sec .teachers {
+    padding: 70px 0px;
+}
+
+.teacher-sec .teachers h1 {
+    line-height: 72px;
+    text-align: center;
+    color: #29ABE2;
+    font-size: 44px;
+    font-family: bebas-neue, sans-serif;
+    font-weight: 400;
+}
+
+.teacher-sec .teachers h4 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Agency FB';
+    line-height: 36px;
+    letter-spacing: 0px;
+    color: #4B5B6B;
+    font-size: 30px;
+    padding: 20px 0px 50px 0px;
+}
+
+.teacher-sec .teachers .ch-grid .teacher-pic .ch-img-1,
+.teacher-sec .teachers .ch-grid .teacher-pic .ch-img-2,
+.teacher-sec .teachers .ch-grid .teacher-pic .ch-img-3 {
+    width: 197px;
+    height: 197px;
+    line-height: 197px;
+    border-radius: 50%;
+    border: 3px solid #29ABE2;
+    position: relative;
+    cursor: default;
+    margin: 0 auto;
+    box-shadow:
+        inset 0 0 0 0 rgba(0, 129, 191, 0.4),
+        inset 0 0 0 16px rgba(255, 255, 255, 0.6),
+        0 1px 2px rgba(0, 0, 0, 0.1);
+    transition: all 0.4s ease-in-out;
+}
+
+.teacher-sec .teachers .teacher-pic h2 {
+    font-weight: 700;
+    font-family: 'Agency FB';
+    line-height: 36px;
+    letter-spacing: 0px;
+    color: #4B5B6B;
+    font-size: 30px;
+    padding: 20px 0px 10px 0px;
+}
+
+.teacher-sec .teachers .teacher-pic .hide-cool:hover {
+    color: #fff;
+}
+
+.teacher-sec .teachers .teacher-pic h3 {
+    font-size: 16px;
+    color: #4B5B6B;
+    font-weight: 400;
+}
+
+.teacher-sec .teachers .teacher-pic p {
+    line-height: 22px;
+    width: 80%;
+    margin: 0 auto;
+    color: #4B5B6B;
+    font-size: 16px;
+    font-family: lato, sans-serif;
+    font-weight: 400;
+    padding-top: 20px;
+}
+
+.teacher-sec .teachers .ch-grid .teacher-pic .ch-img-1 {
+    background-image: url(../IMAGES/teacher1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.teacher-sec .teachers .ch-grid .teacher-pic .ch-img-2 {
+    background-image: url(../IMAGES/teacher2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.teacher-sec .teachers .ch-grid .teacher-pic .ch-img-3 {
+    background-image: url(../IMAGES/teacher3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.teacher-sec .teachers .ch-grid .teacher-pic .ch-info {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    overflow: hidden;
+    opacity: 0;
+    transition: all 0.4s ease-in-out;
+    transform: scale(0);
+    backface-visibility: hidden;
+}
+
+.teacher-sec .teachers .ch-grid .teacher-pic .ch-info h3 {
+    color: #fff;
+    text-transform: uppercase;
+    position: relative;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin: 0 30px;
+    padding: 65px 0 0 0;
+    height: 110px;
+    font-family: 'Open Sans', Arial, sans-serif;
+    text-shadow:
+        0 0 1px #fff,
+        0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+
+.teacher-sec .teachers .ch-grid .teacher-pic .ch-info p {
+    color: #fff;
+    padding: 10px 5px;
+    font-style: italic;
+    margin: 0 30px;
+    font-size: 12px;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+
+.teacher-sec .teachers .ch-grid .teacher-pic .ch-info p a {
+    display: block;
+    color: rgba(255, 255, 255, 0.7);
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 9px;
+    letter-spacing: 1px;
+    padding-top: 4px;
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+
+
+.teacher-sec .teachers .ch-grid .teacher-pic .ch-info p a:hover {
+    color: rgba(255, 242, 34, 0.8);
+}
+
+.teacher-sec .teachers .ch-grid .teacher-pic .ch-item:hover {
+    box-shadow:
+        inset 0 0 0 110px rgba(0, 129, 191, 0.4),
+        inset 0 0 0 16px rgba(255, 255, 255, 0.8),
+        0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.teacher-sec .teachers .ch-grid .teacher-pic .ch-item:hover .ch-info {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.teacher-sec .teachers .ch-grid {
+    list-style: none;
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+
+/*-----------------------------------------------------------------------------*/
+
+
+/*----------------------PRICING SECTION------------------------*/
+
+.pricing-sec {
+    background-color: #E4DFDF;
+    text-align: center;
+    padding: 75px 0px;
+}
+
+.pricing-sec .pricing h1 {
+    text-transform: uppercase;
+    line-height: 72px;
+    text-align: center;
+    color: #29ABE2;
+    font-size: 44px;
+    font-family: bebas-neue, sans-serif;
+    font-weight: 400;
+}
+
+.pricing-sec .pricing h4 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Agency FB';
+    line-height: 36px;
+    letter-spacing: 0px;
+    color: #4B5B6B;
+    font-size: 30px;
+    padding: 20px 0px 50px 0px;
+}
+
+.pricing-sec .pricing .box ul li {
+    list-style: none;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.pricing-sec .pricing .box ul li h2 {
+    background-color: #29ABE2;
+    padding: 10px 0px;
+    color: #fff;
+    font-size: 36px;
+    font-family: 'Agency FB';
+    font-weight: 400;
+}
+
+
+.pricing-sec .pricing .box ul li .cool:hover {
+    background-color: #0660ce;
+}
+
+
+.pricing-sec .pricing .box .list {
+    background-color: #fff;
+    color: #4B5B6B;
+    font-size: 16px;
+    font-family: lato, sans-serif;
+    font-weight: 400;
+    text-align: center;
+    line-height: 30px;
+    letter-spacing: 0px;
+}
+
+.pricing-sec .pricing .box .list:nth-child(3) {
+    padding-top: 20px;
+}
+
+.pricing-sec .pricing .box .list:nth-child(8) {
+    padding-bottom: 20px;
+}
+
+.pricing-sec .pricing .box .amount {
+    background-color: #69CCC5;
+    padding: 20px 0px;
+}
+
+.pricing-sec .pricing .box ul li h1 {
+    color: #fff;
+    line-height: 86px;
+    font-size: 72px;
+    font-family: 'Agency FB';
+    font-weight: 700;
+}
+
+.pricing-sec .pricing .box,
+.col-lg-1,
+.col-lg-10,
+.col-lg-11,
+.col-lg-12,
+.col-lg-2,
+.col-lg-3,
+.col-lg-4,
+.col-lg-5,
+.col-lg-6,
+.col-lg-7,
+.col-lg-8,
+.col-lg-9,
+.col-md-1,
+.col-md-10,
+.col-md-11,
+.col-md-12,
+.col-md-2,
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-7,
+.col-md-8,
+.col-md-9,
+.col-sm-1,
+.col-sm-10,
+.col-sm-11,
+.col-sm-12,
+.col-sm-2,
+.col-sm-3,
+.col-sm-4,
+.col-sm-5,
+.col-sm-6,
+.col-sm-7,
+.col-sm-8,
+.col-sm-9,
+.col-xs-1,
+.col-xs-10,
+.col-xs-11,
+.col-xs-12,
+.col-xs-2,
+.col-xs-3,
+.col-xs-4,
+.col-xs-5,
+.col-xs-6,
+.col-xs-7,
+.col-xs-8,
+.col-xs-9 {
+    padding-right: 9px;
+    padding-left: 9px;
+}
+
+/*---------------------------------------------------------*/
+
+/*------------------------GIRLSLIDE SECTION------------------------*/
+
+.flexslider {
+    border: inherit;
+    background: inherit;
+}
+
+.girlslide-sec {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../IMAGES/webimage5.jpg);
+    /*    width: 1200px;*/
+    min-height: 450px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.girlslide-sec .girl .flexslider .slides > li {
+    position: relative;
+}
+
+.girlslide-sec .girl .flexslider .slides .flex-caption {
+    text-align: center;
+    padding-top: 90px;
+}
+
+.girlslide-sec .girl .flexslider .slides .flex-caption img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+    line-height: 100px;
+}
+
+.girlslide-sec .girl .flexslider .slides .flex-caption p {
+    color: #fff;
+    padding: 25px 0px;
+    width: 66%;
+    margin: 0 auto;
+    line-height: 22px;
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-family: lato, sans-serif;
+    font-weight: 400;
+}
+
+.girlslide-sec .girl .flexslider .slides .flex-caption h6 {
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: lato, sans-serif;
+    font-weight: 400;
+
+}
+
+.girlslide-sec .flex-direction-nav .flex-prev {
+    display: none;
+}
+
+/*
+.girlslide-sec .flex-control-paging li a.flex-active {
+    color: #fff;
+    background: rgba(251, 246, 246, 0.9);
+   
+}
+.girlslide-sec .flex-control-paging li a:hover {
+    background: #DEDEDE;
+   background-color: #DEDEDE;
+}
+*/
+
+.girlslide-sec .flex-direction-nav .flex-next {
+    display: none;
+}
+
+.girlslide-sec .flex-control-paging li a {
+    background: #b7b6b6;
+    background: rgba(183, 182, 182, 0.9);
+}
+
+.flex-control-paging li a:hover {
+    background: #5fff;
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.flex-control-paging li a.flex-active {
+    background: #fff;
+    background: rgba(251, 246, 246, 0.9);
+}
+
+.flex-control-nav {
+    bottom: -67px;
+}
+
+/*---------------------------------------------------*/
+
+/*-------------------FORM SECTION----------------------*/
+
+
+.contact-sec {
+    background-color: #29ABE2;
+}
+
+.contact-sec .contact {
+    padding: 90px 0;
+}
+
+.contact-sec .contact h1 {
+    text-align: center;
+    font-size: 44px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: bebas-neue, sans-serif;
+}
+
+.contact-sec .contact p {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Agency FB';
+    line-height: 36px;
+    letter-spacing: 0px;
+    color: #fff;
+    font-size: 30px;
+    padding: 20px 0px 80px 0px;
+}
+
+.contact-sec .contact .information .contact-form {
+    margin-right: -18%;
+    margin-left: 24%;
+
+}
+
+.contact-sec .contact .information .contact-form .caption {
+    color: #fff;
+    display: table-row;
+}
+
+.contact-sec .contact .information .contact-form .fr {
+    width: 80%;
+    border: none;
+    font-size: 16px;
+    padding: 5px 0px 6px 6px;
+    font-style: italic;
+    font-weight: 500;
+    color: #4F4F4F;
+    margin: 5px 0px 7px 0px;
+}
+
+.contact-sec .contact .information .contact-form .fr:hover {
+    font-style: normal;
+    color: #000;
+}
+
+.contact-sec .contact .information .contact-form .msg-box {
+    width: 80%;
+    border: none;
+    font-size: 16px;
+    color: #767676;
+    font-style: italic;
+    font-weight: 500;
+    margin: 5px 0px 10px 0px;
+}
+
+.contact-sec .contact .information .contact-form .msg-box:hover {
+    font-style: normal;
+    color: #000;
+}
+
+.contact-sec .contact .information .fr-btn {
+    text-decoration: none;
+    color: #fff;
+    background-color: #E21E79;
+    padding: 7px 183px;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Agency FB';
+    margin-right: -18%;
+    margin-left: 24%;
+}
+
+.contact-sec .contact .information .fr-btn:hover {
+    color: #000;
+}
+
+.contact-sec .contact .information p {
+    float: left;
+    font-size: 16px;
+    text-transform: inherit;
+    font-family: bebas-neue, sans-serif;
+    font-weight: 100;
+    width: 93%;
+    text-align: inherit;
+    line-height: 26px;
+    padding-bottom: 45px;
+    display: block;
+}
+
+.contact-sec .contact .information .contact-address {
+    display: inline-block;
+    float: left;
+}
+
+.contact-sec .contact .information .contact-address li {
+    list-style: none;
+    color: #fff;
+    line-height: 22px;
+    text-align: left;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: lato, sans-serif;
+    font-weight: 400;
+}
+
+.contact-sec .contact .information .contact-address li:nth-child(1) {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-family: 'Agency FB';
+    font-weight: 700;
+    padding-bottom: 25px;
+}
+
+.contact-sec .contact .information .contact-address li:nth-child(3) {
+    padding-bottom: 20px;
+}
+
+.contact-sec .contact .information .timing {
+    padding-left: 30px;
+    display: inline-block;
+    float: left;
+    list-style: none;
+    color: #fff;
+    line-height: 22px;
+    text-align: left;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: lato, sans-serif;
+    font-weight: 400;
+}
+
+.contact-sec .contact .information .timing li:nth-child(1) {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-family: 'Agency FB';
+    font-weight: 700;
+    padding-bottom: 25px;
+}
+
+/*------------------------------------------------------------------------*/
+
+/*---------------------------mobile section----------------------------*/
+
+.mobile-sec {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../IMAGES/mobile.jpg);
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mobile-sec .mobile {
+    text-align: center;
+    padding: 100px 0px 70px 0px;
+}
+
+.mobile-sec .mobile .mb {
+    font-size: 90px;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+.mobile-sec .mobile h1 {
+    color: #fff;
+    font-size: 36px;
+    font-weight: 700;
+    font-family: 'bebas-neue', 'sans-serif';
+    padding-bottom: 30px;
+}
+
+.mobile-sec .mobile p {
+    color: #fff;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: 'Agency FB';
+    font-weight: 700;
+}
+
+/*------------------------------------------------------------*/
+
+/*----------------------FOOTER SECTION--------------------------*/
+
+.footer-upper {
+    padding: 70px 0px 110px 0px;
+    background-color: #3a3e64;
+    color: #fff;
+    text-align: center;
+}
+
+.footer-upper .ftr h4 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.footer-upper .ftr h5 {
+    color: #afb0bc;
+    margin-bottom: 12px;
+    font-size: 13px;
+}
+
+.footer-upper .ftr ul li {
+    display: inline-block;
+    list-style: none;
+}
+
+.footer-upper .ftr ul li a {
+    text-decoration: none;
+    border: 1px solid #c6cacc;
+    margin-right: 5px;
+    padding: 7px 12px;
+    font-size: 18px;
+    color: #c6cacc;
+}
+
+.footer-upper .ftr ul li a:hover {
+    color: #e84545;
+    border: 1px solid #e84545;
+}
+
+
+.footer-lower {
+    background-color: #313454;
+    padding: 30px 0px;
+    color: #fff;
+    text-align: center;
+}
+
+.footer-lower h6 {
+    color: #afb0bc;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+/*
+span {
+    color: #fff;
+}
+*/
+
+.footer-lower img {
+    width: 15px;
+    height: 15px;
+}
+
+/*------------------------------------------------------------------*/
+
+
+
+
+/*---------------------BOOTSTRAP MEDIAQUARY-------------------------*/
+
+
+/*--------Medium Devise(max-width:1199px,minimum-width:992px)----------*/
+
+
+@media only screen and (max-width:1199px) {
+
+    .header-sec .header .logo-part {
+        padding-left: 120px;
+    }
+
+    .header-sec .header .login-part {
+        padding-left: 150px;
+    }
+
+    .banner .heading p {
+        margin-top: 17%;
+    }
+
+    .banner .heading h1 {
+        font-size: 50px;
+    }
+
+    .feature-sec .feature-count .heading h1 {
+        font-size: 38px;
+    }
+
+    .vedio-sec .vedio-para .show img {
+        padding-right: 0px;
+    }
+
+    .vedio-sec .vedio-para .show .vedio {
+        margin-left: inherit;
+    }
+
+    .teacher-sec .teachers .teacher-pic p {
+        width: 100%;
+    }
+
+    .girlslide-sec .girl .flexslider .slides .flex-caption p {
+        width: 75%;
+    }
+
+    .contact-sec .contact .information .fr-btn {
+        padding: 7px 145px;
+    }
+}
+
+/*--------Medium Devise(max-width:991px,minimum-width:768px)----------*/
+
+
+
+@media only screen and (max-width:991px) {
+        .menu {
+        display: block;
+    }
+
+    .menu:hover {
+        color: #e84545;
+    }
+       .nav-bar ul {
+        position: absolute;
+        top: 75px;
+        right: 0;
+        width: 100%;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.3);
+        display: none;
+           padding: 20px 10px;
+    }
+
+    .nav-bar ul li {
+        padding: 10px 15px;
+        float: none;
+        color: #fff;
+        border-bottom: 1px solid #fff;
+    }
+
+    .nav-bar ul li a {
+        color: white;
+    }
+    .header-sec .header .logo-part {
+        padding-left: 50px;
+    }
+
+    .header-sec .header .login-part {
+        padding-left: 65px;
+    }
+
+    .header-sec .header .login-part .bb-btn {
+        margin-right: 23px;
+    }
+
+    .header-sec .header .frame {
+        padding-left: 23px;
+    }
+
+    .banner .heading p {
+        margin-top: 22%;
+    }
+
+    .banner .heading p {
+        font-size: 33px;
+    }
+
+    .banner .heading .book {
+        font-size: 33px;
+    }
+
+    .banner .heading h1 {
+        font-size: 42px;
+    }
+
+    .banner .heading h2 {
+        font-size: 28px;
+    }
+
+    .feature-sec .feature-count .features .cell {
+        padding-top: 25px;
+    }
+
+    .feature-sec .feature-count .features .cell h2 {
+        padding: 22px 0px;
+    }
+
+    .feature-sec .feature-count .features .cell p {
+        width: 44%;
+    }
+
+    .vedio-sec .vedio-para h1 {
+        font-size: 40px;
+    }
+
+    /*
+    .vedio-sec .vedio-para img {
+        padding-left: 78px;
+    }
+*/
+
+    .course-sec .courses .album .pic-para-set {
+
+        background-color: #fff;
+        text-align: center;
+        display: inherit;
+        width: 400px;
+        margin: 0 auto;
+    }
+
+    .course-sec .courses .album .pic-para-set .para-set p {
+        width: 96%;
+        padding-bottom: 30px;
+
+    }
+
+    .course-sec .courses .album {
+        margin-bottom: inherit;
+    }
+
+    .teacher-sec .teachers {
+        padding: 35px 0px;
+    }
+
+    .teacher-sec .teachers .teacher-pic p {
+        width: 46%;
+    }
+
+    .teacher-sec .teachers .teacher-pic p {
+        width: 46%;
+        padding-bottom: 50px;
+    }
+
+    .pricing-sec .pricing .box ul li {
+        width: 400px;
+    }
+
+    .pricing-sec .pricing .box ul li .cool {
+        margin-bottom: 35px;
+    }
+
+    .contact-sec .contact .information .contact-form {
+        margin-right: 2%;
+        margin-left: 18%;
+    }
+
+    .contact-sec .contact .information p {
+        float: inherit;
+        font-size: 16px;
+        text-transform: inherit;
+        font-family: bebas-neue, sans-serif;
+        font-weight: 100;
+        width: 70%;
+        text-align: center;
+        line-height: 26px;
+        padding-bottom: 45px;
+        display: block;
+        margin: 0 auto;
+        padding-top: 60px;
+    }
+
+    .contact-sec .contact .information .fr-btn {
+        margin-left: 26%;
+    }
+
+    .contact-sec .contact .information .contact-address {
+        padding-left: 180px;
+    }
+}
+
+/*--------Medium Devise(max-width:767px,minimum-width:320px)----------*/
+
+
+@media only screen and (max-width:767px) {
+    .banner .heading p {
+        margin-top: 35%;
+    }
+
+    .banner .heading p {
+        font-size: 31px;
+    }
+
+    .banner .heading .book {
+        font-size: 30px;
+    }
+
+    .banner .heading h1 {
+        font-size: 32px;
+    }
+
+    .banner .heading h2 {
+        font-size: 23px;
+    }
+
+    .feature-sec .feature-count .heading h1 {
+        font-size: 34px;
+    }
+
+
+    .vedio-sec .vedio-para h1 {
+        font-size: 36px;
+    }
+
+    .vedio-sec .vedio-para h2 {
+        font-size: 28px;
+    }
+
+    .course-sec .courses .album .pic-para-set {
+        width: 350px;
+    }
+
+    .course-sec .courses h1 {
+        font-size: 40px;
+    }
+
+    .course-sec .courses .pp {
+        font-size: 28px;
+    }
+
+    .teacher-sec .teachers h1 {
+        font-size: 40px;
+    }
+
+    .teacher-sec .teachers h4 {
+        font-size: 28px;
+    }
+
+    .pricing-sec .pricing h1 {
+        font-size: 40px;
+    }
+
+    .pricing-sec .pricing h4 {
+        font-size: 28px;
+    }
+
+    .pricing-sec .pricing .box ul li {
+        width: 350px;
+    }
+
+    .contact-sec .contact h1 {
+        font-size: 40px;
+    }
+
+    .contact-sec .contact p {
+        font-size: 28px;
+    }
+
+    .contact-sec .contact .information .contact-address {
+        padding-left: 190px;
+    }
+
+    .contact-sec .contact .information .timing {
+        padding-left: 15px;
+    }
+
+    .mobile-sec .mobile h1 {
+        font-size: 34px;
+    }
+
+    .mobile-sec .mobile p {
+        font-size: 28px;
+    }
+
+}
+
+@media only screen and (max-width:736px) {
+    .contact-sec .contact .information .fr-btn {
+        margin-left: 29%;
+    }
+
+    .contact-sec .contact .information .fr-btn {
+        padding: 7px 120px;
+    }
+
+    .feature-sec .feature-count .heading h1 {
+        font-size: 28px;
+    }
+
+    .vedio-sec .vedio-para h1 {
+        font-size: 32px;
+    }
+
+    .vedio-sec .vedio-para h2 {
+        font-size: 25px;
+    }
+
+    .course-sec .courses h1 {
+        font-size: 33px;
+    }
+
+    .course-sec .courses .pp {
+        font-size: 25px;
+    }
+
+    .teacher-sec .teachers h1 {
+        font-size: 33px;
+    }
+
+    .teacher-sec .teachers h4 {
+        font-size: 25px;
+    }
+
+    background-color: #E4DFDF;
+    padding: 46px 0px;
+}
+
+.pricing-sec .pricing h1 {
+    font-size: 35px;
+}
+
+.pricing-sec .pricing h4 {
+    font-size: 25px;
+}
+
+.contact-sec .contact h1 {
+    font-size: 35px;
+}
+
+.contact-sec .contact p {
+    font-size: 25px;
+}
+}
+
+@media only screen and (max-width:709px) {
+    .contact-sec .contact .information .fr-btn {
+        margin-left: 28%;
+    }
+}
+
+@media only screen and (max-width:676px) {
+    .contact-sec .contact .information .fr-btn {
+        margin-left: 35%;
+
+    }
+
+    .contact-sec .contact .information .fr-btn {
+        padding: 7px 69px;
+    }
+
+    .contact-sec .contact .information .contact-address {
+        padding-left: 155px;
+    }
+
+    .mobile-sec .mobile p {
+        font-size: 25px;
+    }
+
+}
+
+@media only screen and (max-width:589px) {
+    .banner .heading p {
+        font-size: 28px;
+    }
+
+    .banner .heading .book {
+        font-size: 28px;
+    }
+
+    .banner .heading h1 {
+        font-size: 30px;
+        line-height: 43px;
+    }
+
+    .banner .heading h2 {
+        font-size: 19px;
+    }
+
+    .contact-sec .contact .information .fr-btn {
+        margin-left: 33%;
+
+    }
+}
+
+@media only screen and (max-width:555px) {
+    .banner .heading p {
+        font-size: 25px;
+    }
+
+    .banner .heading .book {
+        font-size: 25px;
+    }
+
+    .banner .heading h1 {
+        font-size: 27px;
+    }
+
+    .contact-sec .contact .information .contact-address {
+        padding-left: 88px;
+    }
+
+    .contact-sec .contact .information .contact-address {
+        padding-left: 72px;
+    }
+
+}
+
+@media only screen and (max-width:533px) {
+    .contact-sec .contact .information .fr-btn {
+        margin-left: 30%;
+    }
+
+}
+
+@media only screen and (max-width:503px) {
+    .banner .heading p {
+        margin-top: 40%;
+    }
+
+    .banner .heading h1 {
+        font-size: 25px;
+    }
+
+    .banner .heading h2 {
+        font-size: 17px;
+    }
+
+    .banner .flex-caption .form .frm {
+        display: list-item;
+        margin-right: inherit;
+        margin: 0 auto 10px auto;
+    }
+
+    .feature-sec .feature-count .heading h1 {
+        font-size: 26px;
+    }
+
+    .course-sec .courses h1 {
+        font-size: 30px;
+    }
+
+    .course-sec .courses .pp {
+        font-size: 23px;
+    }
+
+    .course-sec .courses .album .pic-para-set {
+        width: 295px;
+    }
+
+    .vedio-sec .vedio-para h1 {
+        font-size: 26px;
+    }
+
+    .vedio-sec .vedio-para h2 {
+        font-size: 22px;
+    }
+
+    .vedio-sec .vedio-para .show img {
+        width: 80%;
+        margin-left: 35px;
+    }
+
+    .vedio-sec .vedio-para .show .vedio {
+        width: 70%;
+    }
+
+    .teacher-sec .teachers h1 {
+        font-size: 30px;
+    }
+
+    .pricing-sec .pricing h1 {
+        font-size: 32px;
+    }
+
+    .pricing-sec .pricing .box ul li {
+        width: 280px;
+    }
+
+    .contact-sec .contact h1 {
+        font-size: 30px;
+    }
+
+    .contact-sec .contact .information .fr-btn {
+        padding: 7px 60px;
+    }
+
+    .contact-sec .contact .information .contact-address {
+        padding-left: 53px;
+
+    }
+}
+
+@media only screen and (max-width:454px) {
+    .contact-sec .contact .information .fr-btn {
+
+        padding: 7px 50px;
+
+    }
+
+    .contact-sec .contact .information .contact-address {
+        width: 100%;
+        padding-left: 119px;
+    }
+
+    .contact-sec .contact .information .timing {
+        padding-left: 121px;
+        margin-top: 20px;
+
+    }
+
+    .girlslide-sec .girl .flexslider .slides .flex-caption p {
+        width: 94%;
+    }
+
+    .flex-control-nav {
+        bottom: -55px;
+    }
+}
+
+@media only screen and (max-width:454px) {
+    .contact-sec .contact .information .contact-address {
+        padding-left: 90px;
+
+    }
+
+    .contact-sec .contact .information .timing {
+        padding-left: 90px;
+    }
+
+}
+
+@media only screen and (max-width:372px) {
+    .contact-sec .contact .information .fr-btn {
+
+        padding: 7px 35px;
+    }
+
+    .contact-sec .contact .information .contact-address {
+        padding-left: 72px;
+
+    }
+
+    .contact-sec .contact .information .timing {
+        padding-left: 72px;
+    }
+
+}
+
+@media only screen and (max-width:320px) {
+    .contact-sec .contact .information .fr-btn {
+        margin-left: 27%;
+    }
+
+    .contact-sec .contact .information .contact-address {
+        padding-left: 54px;
+
+    }
+
+    .contact-sec .contact .information .timing {
+        padding-left: 54px;
+    }
+
+}
