@@ -1,225 +1,960 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <title>Sutapa Dey</title>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta name="description" content="">
     <meta name="keywords" content="">
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+
 
     <!--font-awasome-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css">
 
-
     <!--custom css-->
-    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="CSS/style.css" rel="stylesheet" type="text/css">
 
     <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
     <!-- Popper JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 
     <!-- Latest compiled JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-    <!--headline js-->
-    <script src="js/animated-headline.js"></script>
+    <!-- skill section JavaScript start-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.1.0/velocity.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.1.0/velocity.ui.js"></script>
+
+    <!-- skill section JavaScript end-->
+
+    <!-- resume section JavaScript start-->
+    <script src="https://www.jqueryscript.net/demo/jQuery-Plugin-To-Create-Interactive-Polygon-Background-Geometryangle/geometryangle.js"></script>
+    <!-- resume section JavaScript end-->
+
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> -->
+    <script src="js/script.js"></script>
 
 </head>
 
 
 
-
-
 <body>
-
-
-    <!--Home Section Start-->
-    <section id="home" class="banner">
-        <div class="container">
-            <!--Banner Content-->
-            <div class="banner-caption">
-                <h1>Hi! I'm Sutapa Dey</h1>
-                <p class="cd-headline clip mt-30">
-<!--                    <span>Lorem Ipsum is simply dummy text of the.</span><br>-->
-                    <span class="blc">Specialized in</span>
-                    <span class="cd-words-wrapper">
-                        <b class="is-visible">HTML Developer</b>
-
-                        <b>Web Designer</b>
-                    </span>
-                </p>
-            </div>
-            <div class="arrow bounce">
-                <a class="fa fa-chevron-down fa-2x" href="#about-me" data-scroll-nav="1"></a>
-            </div>
-        </div>
-    </section>
-    <!--Home Section End-->
-
-
-
-
-
-
-
-
-
-    <!--About Section Start-->
-    <section class="about" id="about-me">
+    <a href="#" id="scroll" style="display: none;"><span></span></a>
+    <!-- <div class="hero-anime"> -->
+    <section class="navigation-wrap  start-header start-style navigation" id="mainNav">
         <div class="container">
             <div class="row">
-                <div class="col-lg-5 col-md-6">
-                    <!--About Image-->
-                    <div class="about-img">
-                        <img src="images/about-img2.png" alt="">
-                    </div>
+                <div class="col-12">
+                    <nav class="navbar navbar-expand-md navbar-light">
+
+                        <a class="navbar-brand" href="#">
+                            <img src="images/sd-logo.png" alt="" class="img-fluid"></a>
+
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ml-auto py-4 py-md-0">
+                                <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 active">
+                                    <a class="nav-link navigation__link"  href="#1" >About</a>
+                                </li>
+                                <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                    <a class="nav-link navigation__link" href="#2">Skills</a>
+                                </li>
+                                <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                    <a class="nav-link  navigation__link"  href="#3" >Services</a>
+                                </li>
+                                <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                    <a class="nav-link navigation__link" href="#4">Projects</a>
+                                </li>
+                                <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                    <a class="nav-link navigation__link" href="#5">Resume</a>
+                                </li>
+                                <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                    <a class="nav-link navigation__link" href="#6">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </nav>
                 </div>
-                <div class="col-lg-7 col-md-6">
-                    <!--About Content-->
-                    <div class="about-content">
-                        <div class="about-heading">
-                            <h2>About Me</h2>
-                            <span>HTML Developer / Web Designer</span>
+            </div>
+        </div>
+        <!-- </div> -->
+    </section>
+
+
+
+    <section class="banner">
+        <div class="wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="banner-text">
+                            <h2>Hi! <span class="name">I'm Sutapa Dey</span></h2>
+                            <div class="center">
+                                <div id='slider'
+                                    style="font-size: 20px;letter-spacing: 3px;padding-top: 15px;text-transform: capitalize;">
+                                </div>
+                            </div>
+
                         </div>
-                        <p>I'm <b>Sutapa Dey</b> who loves to create beautiful user interfaces design with HTML, CSS, Bootstrap. </p>
-                        <p>Learn Web Designing course from Ejobindia Training Institution. </p>
-                        <!--About Social Icons-->
-                        <div class="social-icons">
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-                            <a href="https://www.linkedin.com/in/web-sutapa/" target="_blank"><i class="fa fa-linkedin"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                            <a href="#"><i class="fa fa-envelope"></i></a>
-<!--                            <a href="#"><i class="fa fa-google-plus"></i></a>-->
-<!--                            <a href="#"><i class="fa fa-github"></i></a>-->
-                        </div>
-                        <span class="about-button">
-                            <a class="main-btn" href="#">Follow me on Linkedin</a>
-                        </span>
+
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+
+    <section class="about page-section hero" id="1">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="about-head">
+                        <h1 id="h1">about</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="about-body wow fadeInU" data-wow-duration="2s" data-wow-delay=".25s">
+                <div class="row">
+                    <div class="col-lg-5 col-md-6">
+                        <!--About Image-->
+                        <div class="about-img">
+                            <img src="images/11180404_900403830018367_47377718_o.jpg" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-lg-7 col-md-6">
+                        <!--About Content-->
+                        <div class="about-content">
+                            <div class="about-heading">
+
+                                <h2><span class="hd-clr">HTML Developer </span></br> Web Designer</h2>
+                                <h6>About </h6>
+                            </div>
+                            <div class="about-text">
+                                <p>I'm <b>Sutapa Dey</b> who loves to create beautiful user interfaces design with HTML,
+                                    CSS,
+                                    Bootstrap. </p>
+                                <p>Learn Web Designing course from Ejobindia Training Institution. </p>
+                                <!--About Social Icons-->
+                                <div class="social-icons">
+                                    <a href="#"><i class="fa fa-facebook"></i></a>
+                                    <a href="https://www.linkedin.com/in/web-sutapa/" target="_blank"><i
+                                            class="fa fa-linkedin"></i></a>
+                                    <a href="#"><i class="fa fa-twitter"></i></a>
+                                    <a href="#"><i class="fa fa-envelope"></i></a>
+                                    <!--                            <a href="#"><i class="fa fa-google-plus"></i></a>-->
+                                    <!--                            <a href="#"><i class="fa fa-github"></i></a>-->
+                                </div>
+                                <div class="about-button">
+                                    <a class="btn banner-btn" href="#">Follow me on Linkedin</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!--About Section End-->
 
 
+    <section class="intro page-section hero" id="2">
+        <div class="container-fluid">
+            <div class="intro-block">
+                <div class="centerfold-wrap">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12 col-sm-12">
+                            <div class="hex-master-wrap">
+                                <div class="hover-notify">Hover Me!</div>
+                                <div class="grid-1">
+                                    <div class="hex-wrap backend" data-title="BOOTSTRAP" data-content="backend-desc"
+                                        data-color="#8a5dec">
+                                        <div class="hex-init"></div>
+                                        <div class="hex-borders">
+                                            <div class="border-1"></div>
+                                            <div class="border-2"></div>
+                                            <div class="border-3"></div>
+                                        </div>
+                                        <div class="label boot">B</div>
+                                        <div class="hexagon">
+                                            <div class="hex-inner-1">
+                                                <div class="hex-inner-2"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="hex-wrap frontend" data-title="JQUERY" data-content="frontend-desc"
+                                        data-color="#16A085">
+                                        <div class="hex-init"></div>
+                                        <div class="hex-borders">
+                                            <div class="border-1"></div>
+                                            <div class="border-2"></div>
+                                            <div class="border-3"></div>
+                                        </div>
+                                        <div class="label jq">J</div>
+                                        <div class="hexagon">
+                                            <div class="hex-inner-1">
+                                                <div class="hex-inner-2"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid-2">
+                                    <div class="hex-wrap html" data-title="HTML5" data-content="html-desc"
+                                        data-color="#E34C26">
+                                        <div class="hex-init"></div>
+                                        <div class="hex-borders">
+                                            <div class="border-1"></div>
+                                            <div class="border-2"></div>
+                                            <div class="border-3"></div>
+                                        </div>
+                                        <div class="label ht">H</div>
+                                        <div class="hexagon">
+                                            <div class="hex-inner-1">
+                                                <div class="hex-inner-2"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="hex-wrap css" data-title="CSS3" data-content="css-desc"
+                                        data-color="#0083de">
+                                        <div class="hex-init"></div>
+                                        <div class="hex-borders">
+                                            <div class="border-1"></div>
+                                            <div class="border-2"></div>
+                                            <div class="border-3"></div>
+                                        </div>
+                                        <div class="label c-s-s">C</div>
+                                        <div class="hexagon">
+                                            <div class="hex-inner-1">
+                                                <div class="hex-inner-2"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="hex-wrap jquery" data-title="JAVASCRIPT" data-content="javascript-desc"
+                                        data-color="#d6ec0e">
+                                        <div class="hex-init"></div>
+                                        <div class="hex-borders">
+                                            <div class="border-1"></div>
+                                            <div class="border-2"></div>
+                                            <div class="border-3"></div>
+                                        </div>
+                                        <div class="label js">JS</div>
+                                        <div class="hexagon">
+                                            <div class="hex-inner-1">
+                                                <div class="hex-inner-2"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid-3">
+                                    <div class="hex-wrap gui" data-title="WORDPRESS" data-content="gui-desc"
+                                        data-color="#51aefa">
+                                        <div class="hex-init"></div>
+                                        <div class="hex-borders">
+                                            <div class="border-1"></div>
+                                            <div class="border-2"></div>
+                                            <div class="border-3"></div>
+                                        </div>
+                                        <div class="label wr">W</div>
+                                        <div class="hexagon">
+                                            <div class="hex-inner-1">
+                                                <div class="hex-inner-2"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="hex-wrap seo" data-title="PHOTOSHOP" data-content="seo-desc"
+                                        data-color="#291c75">
+                                        <div class="hex-init"></div>
+                                        <div class="hex-borders">
+                                            <div class="border-1"></div>
+                                            <div class="border-2"></div>
+                                            <div class="border-3"></div>
+                                        </div>
+                                        <div class="label ps">PS</div>
+                                        <div class="hexagon">
+                                            <div class="hex-inner-1">
+                                                <div class="hex-inner-2"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12">
+                            <div class="code-display">
+                                <div class="code-description">
+                                    <div class="backend-desc">
+                                        <p class="code-title"></p>
+                                        <p><span>Duration:</span>&nbsp;&nbsp;&nbsp;2 Years</p>
+                                        <p><span>Experience:</span>&nbsp;&nbsp;&nbsp;Bootstrap 4</p>
+                                        <div class="code-icon"></div>
+                                    </div>
+                                    <div class="frontend-desc">
+                                        <p class="code-title"></p>
+                                        <p><span>Duration:</span>&nbsp;&nbsp;&nbsp;2 Years</p>
+                                        <p><span>Experience:</span>&nbsp;&nbsp;&nbsp;Jquery</p>
+                                        <div class="code-icon"></div>
+                                    </div>
+                                    <div class="html-desc">
+                                        <p class="code-title"></p>
+                                        <p><span>Duration:</span>&nbsp;&nbsp;&nbsp;2 Years</p>
+                                        <p><span>Experience:</span>&nbsp;&nbsp;&nbsp;HTML5 (most recent)</p>
+                                        <div class="code-icon"></div>
+                                    </div>
+                                    <div class="css-desc">
+                                        <p class="code-title"></p>
+                                        <p><span>Duration:</span>&nbsp;&nbsp;&nbsp;2 Years</p>
+                                        <p><span>Experience:</span>&nbsp;&nbsp;&nbsp;CSS3 (most recent)</p>
+                                        <div class="code-icon"></div>
+                                    </div>
+                                    <div class="javascript-desc">
+                                        <p class="code-title"></p>
+                                        <p><span>Duration:</span>&nbsp;&nbsp;&nbsp;2 Years</p>
+                                        <p><span>Experience:</span>&nbsp;&nbsp;&nbsp;Javascript</p>
+                                        <div class="code-icon"></div>
+                                    </div>
+                                    <div class="gui-desc">
+                                        <p class="code-title"></p>
+                                        <p><span>Duration:</span>&nbsp;&nbsp;&nbsp;2 Years</p>
+                                        <p><span>Experienc:</span>&nbsp;&nbsp;&nbsp;Wordpress, Custom GUI Creation</p>
+                                        <div class="code-icon"></div>
+                                    </div>
+                                    <div class="seo-desc">
+                                        <p class="code-title"></p>
+                                        <p><span>Duration:</span>&nbsp;&nbsp;&nbsp;2 Years</p>
+                                        <p><span>Experience:</span>&nbsp;&nbsp;&nbsp;Photoshop</p>
+                                        <div class="code-icon"></div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
 
 
+                    <div class="hoverblock"></div>
+                </div> <!-- End Centerfold-Wrap -->
+            </div>
+        </div>
+    </section>
+    <section class="numscroll-sec">
+        <canvas id="c"></canvas>
+        <div class="numscroll-count">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 col-6">
+                        <div class="num">
+                            <a href="#"> <i aria-hidden="true" class="fa fa-copy"></i>
+                            </a>
+                            <div id="counter">
+                                <div class="counter-value" data-count="7">0</div>
+                            </div>
+                            <h6>projects done</h6>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-6">
+                        <div class="num">
+                            <a href="#"><i class="fa fa-clock-o" aria-hidden="true"></i>
+                            </a>
+                            <div id="counter">
+                                <div class="counter-value" data-count="400">100</div>
+                            </div>
+                            <h6>hours of work</h6>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-6">
+                        <div class="num">
+                            <a href="#"><i class="fa fa-trophy" aria-hidden="true"></i>
 
+                            </a>
+                            <div id="counter">
+                                <div class="counter-value" data-count="1">0</div>
+                            </div>
+                            <h6>Awords won</h6>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-6">
+                        <div class="num">
+                            <a href="#"><i class="fa fa-users" aria-hidden="true"></i>
 
-
-
-
-
-    <section class="services">
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <div class="heading text-center">
-                        <h6>My Projects</h6>
-                        <h2>What I Can Do</h2>
+                            </a>
+                            <div id="counter">
+                                <div class="counter-value" data-count="5">100</div>
+                            </div>
+                            <h6>happy clients</h6>
+                        </div>
                     </div>
                 </div>
             </div>
+        </div>
+        </canvas>
+    </section>
+
+    <section class="service-sec page-section hero" id="3">
+        <div class="container">
             <div class="row">
-                <div class="col-md-4">
-                    <a href="#">
-                        <div class="service-item">
-                            <span class="icon">
-                                <i class="fa fa-laptop"></i>
-                            </span>
-                            <h4>Relevant Pay</h4>
-                            <p>Lorem Ipsum is simply dummy text of the Lorem has been the industry's standard dummy text ever.</p>
-                        </div>
-                    </a>
+                <div class="col-12">
+                    <div class="service-head">
+                        <h1 id="h2">services</h1>
+                    </div>
                 </div>
-                <div class="col-md-4">
-                    <a href="#">
-                        <div class="service-item">
-                            <span class="icon">
-                                <i class="fa fa-laptop"></i>
-                            </span>
-                            <h4>Active Box</h4>
-                            <p>Lorem Ipsum is simply dummy text of the Lorem has been the industry's standard dummy text ever.</p>
+            </div>
+            <div class="service-body">
+                <div class="row">
+                    <!--  Single Starts  -->
+                    <div class="col-lg-4 col-md-12 service-block">
+                        <div class="service-block-one">
+                            <div class="inner-box">
+                                <div class="icon-box"> <i aria-hidden="true" class="fa fa-copy"></i></div>
+                                <h3><a href="#">web design</a></h3>
+                                <p>Web design refers to the design of websites that are displayed on the internet. It usually refers to the user experience aspects of website development rather than software development.</p>
+                                <div class="btn-box"> <a href="#" class="theme-btn">View Details</a></div>
+                            </div>
                         </div>
-                    </a>
+                    </div>
+                    <!--  Single Ends  -->
+                    <div class="col-lg-4 col-md-12 service-block">
+                        <div class="service-block-one">
+                            <div class="inner-box">
+                                <div class="icon-box"> <i aria-hidden="true" class="fa fa-copy"></i></div>
+                                <h3><a href="#">frontend developer</a></h3>
+                                <p>Front-end web development, also known as client-side development is the practice of producing HTML, CSS and JavaScript for a website or Web Application so that a user can see and interact with them directly.</p>
+                                <div class="btn-box"> <a href="#" class="theme-btn">View Details</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12 service-block">
+                        <div class="service-block-one">
+                            <div class="inner-box">
+                                <div class="icon-box"> <i aria-hidden="true" class="fa fa-copy"></i></div>
+                                <h3><a href="#">photoshop designer</a></h3>
+                                <p>Adobe Photoshop is a powerful software application with numerous tools for image editing, photo retouching, digital art composing, and even animating</p>
+                                <div class="btn-box"> <a href="#" class="theme-btn">View Details</a></div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-4">
-                    <a href="#">
-                        <div class="service-item">
-                            <span class="icon">
-                                <i class="fa fa-pencil"></i>
-                            </span>
-                            <h4>Coming Soon</h4>
-                            <p>Lorem Ipsum is simply dummy text of the Lorem has been the industry's standard dummy text ever.</p>
-                        </div>
-                    </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio-sec page-section hero" id="4">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="por-head">
+                        <h1 id="h3">projects</h1>
+                    </div>
                 </div>
-                <div class="col-md-4">
-                    <a href="#">
-                        <div class="service-item">
-                            <span class="icon">
-                                <i class="fa fa-pencil"></i>
-                            </span>
-                            <h4>Coming Soon</h4>
-                            <p>Lorem Ipsum is simply dummy text of the Lorem has been the industry's standard dummy text ever.</p>
+            </div>
+            <div class="projects">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="project-box">
+                            <a href="https://www.relevantpay.com/ " target="_blank">
+                                <div class="pro-img">
+                                    <img src="images/relevantpay.png" class="img-fluid">
+                                </div>
+                                <div class="content">
+                                    <h3 class="title">relevantpay</h3>
+                                    <p class="description">Fintech company website </p>
+                                </div>
+                            </a>
                         </div>
-                    </a>
-                </div>
-                <div class="col-md-4">
-                    <a href="#">
-                        <div class="service-item">
-                            <span class="icon">
-                                <i class="fa fa-pencil"></i>
-                            </span>
-                             <h4>Coming Soon</h4>
-                            <p>Lorem Ipsum is simply dummy text of the Lorem has been the industry's standard dummy text ever.</p>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="project-box">
+                            <a href="http://ornaware.com/" target="_blank">
+                                <div class="pro-img">
+                                    <img src="images/ornaware.png" class="img-fluid">
+                                </div>
+                                <div class="content">
+                                    <h3 class="title">ornaware</h3>
+                                    <p class="description">online shopping bag website</p>
+                                </div>
+                            </a>
                         </div>
-                    </a>
-                </div>
-                <div class="col-md-4">
-                    <a href="#">
-                        <div class="service-item">
-                            <span class="icon">
-                                <i class="fa fa-pencil"></i>
-                            </span>
-                             <h4>Coming Soon</h4>
-                            <p>Lorem Ipsum is simply dummy text of the Lorem has been the industry's standard dummy text ever.</p>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="project-box">
+                            <a href="http://www.basumatihealthcare.com/" target="_blank">
+                                <div class="pro-img">
+                                    <img src="images/basumati.png" class="img-fluid">
+                                </div>
+                                <div class="content">
+                                    <h3 class="title">basumatihealthcare</h3>
+                                    <p class="description">healthcare center website</p>
+                                </div>
+                            </a>
                         </div>
-                    </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="project-box">
+                            <a href="https://web-sutapa.github.io/projects/active.html" target="_blank">
+                                <div class="pro-img">
+                                    <img src="images/active.png" class="img-fluid">
+                                </div>
+                                <div class="content">
+                                    <h3 class="title">activebox</h3>
+                                    <p class="description">ejobindia project</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="project-box">
+                            <a href=" " target="_blank">
+                                <div class="pro-img">
+                                    <img src="" class="img-fluid">
+                                </div>
+                                <div class="content">
+                                    <h3 class="title">coming soon</h3>
+                                    <p class="description"></p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="project-box ">
+                            <a href="" target="_blank">
+                                <div class="pro-img">
+                                    <img src="" class="img-fluid">
+                                </div>
+                                <div class="content">
+                                    <h3 class="title">coming soon</h3>
+                                    <p class="description"></p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
 
-
-
-
-
-
-
-
-
-    <footer class="site-footer">
+    <section class="hire-sec">
         <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-8 col-sm-12 col-12">
+                    <div class="hire-me">
+                        <p><span class="hire">I am</span> currently available for work</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-4 col-sm-12 col-12">
+                    <div class="hire-me">
+                        <button class="button button--aylen ">hire me</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <section class="resume-sec page-section hero" id="5">
+        <div class="background"></div>
+        <div class="overlay"></div>
+
+        <div class="back-canvas">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="resume-head">
+                            <h1 id="h4">Resume</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="resume-body resume-large">
+                    <div class="row">
+                        <div class="col-md-5">
+
+                        </div>
+                        <div class="col-md-2">
+                            <div class="resume-icon">
+                                <i class="fa fa-briefcase" aria-hidden="true"></i>
+
+                            </div>
+                        </div>
+                        <div class="col-5">
+                            <div class="resume-details">
+                                <h2>Company - MPS Info Services</h2>
+                                <h3>Year – Aug 2019 – Nov 2019</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-5">
+                            <div class="resume-details">
+                                <h2>Training Institution – Ejobindia</h2>
+                                <h3>Year – 2019</h3>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="resume-icon">
+                                <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+
+                            </div>
+                        </div>
+                        <div class="col-md-5">
+
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-5">
+
+                        </div>
+                        <div class="col-md-2">
+                            <div class="resume-icon">
+                                <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                        <div class="col-5">
+                            <div class="resume-details">
+                                <h2>Training Institution – NIELIT</h2>
+                                <h3>Year - 2018</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-5">
+                            <div class="resume-details">
+                                <h2> Master’s (Burdwan University)</h2>
+                                <h3>Year of Passing – 2015</h3>
+                                <h4>Stream – M.A</h4>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="resume-icon">
+                                <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                        <div class="col-md-5">
+
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-5">
+
+                        </div>
+                        <div class="col-md-2">
+                            <div class="resume-icon">
+                                <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                        <div class="col-5">
+                            <div class="resume-details">
+                                <h2>Graduation (Burdwan University)</h2>
+                                <h3>Year of Passing – 2013</h3>
+                                <h4>Stream – B.A</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-5">
+                            <div class="resume-details">
+                                <h2>Training Institution – NIELIT</h2>
+                                <h3>Year - 2012</h3>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="resume-icon">
+                                <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                        <div class="col-md-5">
+
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-5">
+
+                        </div>
+                        <div class="col-md-2">
+                            <div class="resume-icon">
+                                <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                        <div class="col-5">
+                            <div class="resume-details">
+                                <h2>Higher Secondary (W.B.C.H.S.E)</h2>
+                                <h3>Year of Passing – 2010</h3>
+                                <h4>Stream – Arts</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-5">
+                            <div class="resume-details">
+                                <h2>Madhyamik(W.B.B.S.E)</h2>
+                                <h4>Year of Passing – 2008</h4>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="resume-icon">
+                                <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                        <div class="col-md-5">
+
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4 col-12"></div>
+                        <div class="col-lg-4 col-12">
+                            <div class="end-design">
+                                <ul>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-12"></div>
+                    </div>
+                </div>
+
+
+
+                <div class="resume-body resume-small">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="resume-icon">
+                                <i class="fa fa-briefcase" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="resume-details">
+                                <h2>Company - MPS Info Services</h2>
+                                <h3>Year – Aug 2019 – Nov 2019</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="resume-icon">
+                                <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="resume-details">
+                                <h2>Training Institution – Ejobindia</h2>
+                                <h3>Year – 2019</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="resume-icon">
+                                <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="resume-details">
+                                <h2>Training Institution – NIELIT</h2>
+                                <h3>Year - 2018</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="resume-icon">
+                                <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="resume-details">
+                                <h2> Master’s (Burdwan University)</h2>
+                                <h3>Year of Passing – 2015</h3>
+                                <h4>Stream – M.A</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="resume-icon">
+                                <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="resume-details">
+                                <h2>Graduation (Burdwan University)</h2>
+                                <h3>Year of Passing – 2013</h3>
+                                <h4>Stream – B.A</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="resume-icon">
+                                <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="resume-details">
+                                <h2>Training Institution – NIELIT</h2>
+                                <h3>Year - 2012</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="resume-icon">
+                                <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="resume-details">
+                                <h2>Higher Secondary (W.B.C.H.S.E)</h2>
+                                <h3>Year of Passing – 2010</h3>
+                                <h4>Stream – Arts</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2">
+                            <div class="resume-icon">
+                                <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="resume-details">
+                                <h2>Madhyamik(W.B.B.S.E)</h2>
+                                <h4>Year of Passing – 2008</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4 col-12"></div>
+                        <div class="col-lg-4 col-12">
+                            <div class="end-design">
+                                <ul>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-12"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-sec page-section hero" id="6">
+        <div class="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="contact-head">
+                            <h2><span class="con">contact</span> me</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-body">
+                    <div class="row">
+                        <div class="col-lg-5 col-12">
+                            <div class="details">
+                                <h5>details</h5>
+                                <p>I'm Sutapa Dey who loves to create beautiful user interfaces design with HTML, CSS,
+                                    Bootstrap.
+                                    Learn Web Designing course from Ejobindia Training Institution. </p>
+                                <ul>
+                                    <li><a href="#"> Near Jadunath school , kestopur , kolkata</a></li>
+                                    <li><a href="#">8918207383</a></li>
+                                    <li><a href="#">sutapa.dy@gmail.com</a></li>
+                                    <li><a href="#">https://www.linkedin.com/in/web-sutapa/</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-7 col-12">
+                            <div class="form-sec">
+                                <form action="/action_page.php" id="theform">
+                                    <div class="form-group row">
+                                        <label for="usr">Name:</label>
+                                        <input type="text" class="form-control" placeholder="Enter name" id="usr"
+                                            name="username">
+                                    </div>
+                                    <div class="form-group  row">
+                                        <label for="email">Email address:</label>
+                                        <input type="email" class="form-control" placeholder="Enter email" id="email">
+                                    </div>
+                                    <div class="form-group  row">
+                                        <label for="number">phone number:</label>
+                                        <input type="tel" id="quantity" class="form-control" placeholder="Enter number"
+                                            name="quantity" min="0" max="9">
+                                    </div>
+                                    <div class="form-group  row">
+                                        <label for="comment">Comment:</label>
+                                        <textarea class="form-control" rows="5" id="comment"
+                                            placeholder="message"></textarea>
+                                    </div>
+                                    <button type="submit" class="btn form-btn">send message</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="ftr-sec">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="ftr-left">
+                        <p>All rights reserved @ profile 2019</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="ftr-right">
+                        <ul>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li> <a href="https://www.linkedin.com/in/web-sutapa/" target="_blank"><i
+                                        class="fa fa-linkedin"></i></a></li>
+                            <li> <a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li> <a href="#"><i class="fa fa-envelope"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
     </footer>
-
-
-
-
-
-
-
 
 
 
