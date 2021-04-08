@@ -398,7 +398,18 @@ body.dark .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background-color: #0f0f0f !important;
 }
 }
-
+@media only screen and (max-width:575px) {
+ 
+  .navbar-brand img{
+    height: 55px;
+  }
+}
+@media only screen and (max-width:390px) {
+ 
+  .navbar-brand img{
+    height: 40px;
+  }
+}
 /*--------------------MEDEA QUERY END---------------------------------*/
 
 /*-------------------------Header setion end--------------------*/
@@ -1300,7 +1311,14 @@ p.code-title {
   font-size: 18px;
 }
 }
-
+@media only screen and (max-width: 390px) {
+  .code-description {
+    padding-top: 10em;
+}
+section.intro {
+  height: 91vh;
+}
+}
 /*-----------------------------SKILL SECTION END----------------------------*/
 
 /*----------------------PROJECT COUNT SECTION START---------------------------*/
@@ -1384,7 +1402,11 @@ color: #ec0e0e;
 }
   }
 
-
+  @media only screen and (max-width: 390px) {
+    .numscroll-sec canvas {
+      height: 71vh;
+  }
+  }
   /*----------------------PROJECT COUNT SECTION END---------------------------*/
 
 /*-----------SERVICE SECTION START-----------------------*/
@@ -1740,7 +1762,7 @@ right: 0;
 }
 @media only screen and (max-width: 390px) {
   .service-sec .service-body .service-block::before {
-    left: 8.5%;
+    left: 8%;
 }
 .service-block-one .inner-box {
   height: 26em;
@@ -1984,6 +2006,9 @@ padding: 25px 0;
  }
  .hire-sec .hire-me P .hire{
    color: #f00;
+ }
+ .hire-sec .hire-me a{
+   text-decoration: none;
  }
  .hire-sec .hire-me .button{
   padding: 8px 26px;
