@@ -256,7 +256,9 @@ li {
 /*-------------------------------------------------------------*/
 
 /*------------------CLIENT SECTION------------------------*/
-
+.client-sec{
+    overflow: hidden;
+}
 .client-sec .client .client-pic {
     padding: 0px;
 }
