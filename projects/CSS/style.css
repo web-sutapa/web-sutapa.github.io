@@ -110,8 +110,177 @@ li {
     color: #e84545;
 }
 
+/*---------------------BOOTSTRAP MEDIAQUARY-------------------------*/
 
-/*------------------------------------------------------------*/
+
+/*--------Medium Devise(max-width:1199px,minimum-width:992px)----------*/
+
+
+@media only screen and (max-width:1199px) {
+    .banner .banner-info h1 {
+        width: 95%;
+    }
+
+    .banner .banner-info p {
+        width: 70%;
+    }
+}
+
+
+/*--------small Devise(max-width:991px,minimum-width:768px)----------*/
+
+
+@media only screen and (max-width:991px) {
+
+    .menu {
+        display: block;
+    }
+
+    .menu:hover {
+        color: #e84545;
+    }
+       .nav-bar ul {
+        position: absolute;
+        top: 75px;
+        right: 0;
+        width: 100%;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.3);
+        display: none;
+           padding: 20px 10px;
+    }
+
+    .nav-bar ul li {
+        padding: 10px 15px;
+        float: none;
+        color: white;
+        border-bottom: 1px solid #fff;
+    }
+
+    .nav-bar ul li a {
+        color: white;
+    }
+
+/*
+    .banner .header .nav-bar ul li {
+        display: none;
+    }
+*/
+
+    .banner .banner-info h1 {
+        width: 100%;
+    }
+
+    .banner .banner-info h1 {
+        font-size: 52px;
+    }
+
+    .banner .banner-info p {
+        width: 100%;
+    }
+
+}
+/*--------small Devise(max-width:767px,minimum-width:320px)----------*/
+
+@media only screen and (max-width:767px) {
+    .menu {
+       display: block;
+   }
+   .banner .banner-info h1 {
+       font-size: 42px;
+   }
+
+   .banner .banner-info h1 {
+       line-height: 65px;
+   }
+
+   .banner .banner-info h1 {
+       width: 94%;
+   }
+
+   .banner .banner-info p {
+       width: 90%;
+   }
+
+   .banner .banner-info p {
+       font-size: 20px;
+   }
+}
+
+@media only screen and (max-width:665px) {
+    .banner .banner-info p {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width:638px) {
+    .banner .banner-info h1 {
+        line-height: 58px;
+    }
+
+    .banner .banner-info h1 {
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width:609px) {
+   
+    .banner .banner-info h1 {
+        font-size: 38px;
+    }
+
+    .banner .banner-info h1 {
+        line-height: 52px;
+    }
+
+    .banner .banner-info h1 {
+        width: 100%;
+    }
+
+    .banner .banner-info p {
+        font-size: 17px;
+    }
+
+    .banner .banner-info p {
+        width: 97%;
+    }
+}
+
+@media only screen and (max-width:547px) {
+     
+    .banner .banner-info h1 {
+        line-height: 48px;
+    }
+
+    .banner .banner-info h1 {
+        font-size: 34px;
+    }
+}
+
+@media only screen and (max-width:492px) {
+
+    .banner .banner-info h1 {
+        font-size: 32px;
+    }
+}
+
+@media only screen and (max-width:465px) {
+    .banner .banner-info h1 {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width:438px) {
+    .banner .banner-info h1 {
+        font-size: 28px;
+    }
+
+    .banner .banner-info h1 {
+        line-height: 45px;
+    }
+}
+
+/*-----------------------------Banner section end-------------------------------*/
 
 
 /*------------------------------ICON SECTION----------------------------*/
@@ -143,7 +312,36 @@ li {
     font-size: 14px;
 }
 
-/*------------------------------------------------------------------*/
+
+/*---------------------BOOTSTRAP MEDIAQUARY-------------------------*/
+
+
+/*--------small Devise(max-width:991px,minimum-width:768px)----------*/
+
+
+@media only screen and (max-width:991px) {
+    .icon-sec .icon-bar {
+        margin-top: 30px;
+    }
+
+    .icon-sec .icon-bar .icons-6 {
+        margin-bottom: 40px;
+    }
+
+    .icon-sec .icon-bar .icons-6 h6 {
+        margin: 25px 0px;
+    }
+
+    .icon-sec {
+        margin-bottom: 70px;
+    }
+
+   
+}
+
+/*-----------------------------Icon section end-----------------------------*/
+
+
 
 /*---------------------PICTURE SECTION---------------------------------*/
 
@@ -199,7 +397,21 @@ li {
     transform: scale(1.5);
 }
 
-/*-------------------------------------------------------------*/
+/*---------------------BOOTSTRAP MEDIAQUARY-------------------------*/
+
+/*--------small Devise(max-width:991px,minimum-width:768px)----------*/
+
+
+@media only screen and (max-width:991px) {
+
+    .picture-sec .pics img {
+        height: 100%;
+    }
+
+   
+}
+
+/*-----------------------------Picture section end--------------------------------*/
 
 /*-----------------------TEAM SECTION--------------------------*/
 
@@ -253,7 +465,46 @@ li {
     border: 1px solid #e84545;
 }
 
-/*-------------------------------------------------------------*/
+
+/*---------------------BOOTSTRAP MEDIAQUARY-------------------------*/
+
+
+/*--------Medium Devise(max-width:1199px,minimum-width:992px)----------*/
+
+
+@media only screen and (max-width:1199px) {
+
+    .team-sec .team-pic p {
+        width: 93%;
+    }
+}
+
+/*--------small Devise(max-width:991px,minimum-width:768px)----------*/
+
+
+@media only screen and (max-width:991px) {
+
+    .team-sec {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .team-sec .team-pic img {
+        width: 40%;
+    }
+
+    .team-sec .team-pic p {
+        width: 100%;
+    }
+
+    .team-sec .team-pic ul {
+        margin-bottom: 40px;
+    }
+
+}
+/*-----------------------------Team section end-----------------------------*/
+
+
 
 /*------------------CLIENT SECTION------------------------*/
 .client-sec{
@@ -406,8 +657,124 @@ li {
 .client-pic .owl-theme .owl-dots .owl-dot span:hover{
    background: #66697E;
 }
+/*---------------------BOOTSTRAP MEDIAQUARY-------------------------*/
 
-/*----------------------------------------------*/
+
+/*--------Medium Devise(max-width:1199px,minimum-width:992px)----------*/
+
+
+@media only screen and (max-width:1199px) {
+    .client-sec .client .client-pic .comment p {
+        padding: 80px 0px 30px 55px;
+        width: 96%;
+    }
+
+    .client-sec .client .client-pic .comment h6 {
+        padding-left: 55px;
+    }
+}
+
+@media only screen and (max-width:991px){
+    .client-sec .client .client-pic .comment1 p,
+.client-sec .client .client-pic .comment2 p,
+.client-sec .client .client-pic .comment3 p,
+.client-sec .client .client-pic .comment4 p {
+    padding: 50px 0px 25px 60px;
+    font-size: 22px;
+    width: 90%;
+}
+
+.client-sec .client .client-pic .comment1 h6,
+.client-sec .client .client-pic .comment2 h6,
+.client-sec .client .client-pic .comment3 h6,
+.client-sec .client .client-pic .comment4 h6 {
+    padding-left: 60px;
+}
+}
+@media only screen and (max-width:767px){
+    .client  .flexslider {
+        margin: 0 !important;
+    }
+    .client-sec .client .client-pic .comment1 p,
+.client-sec .client .client-pic .comment2 p,
+.client-sec .client .client-pic .comment3 p,
+.client-sec .client .client-pic .comment4 p {
+    padding: 60px 0px 30px 60px;
+    font-size: 21px;
+    width: 90%;
+    line-height: 40px;
+}
+
+.client-sec .client .client-pic .comment1 h6,
+.client-sec .client .client-pic .comment2 h6,
+.client-sec .client .client-pic .comment3 h6,
+.client-sec .client .client-pic .comment4 h6 {
+    padding-left: 60px;
+}
+}
+@media only screen and (max-width:380px){
+    .client-sec .client .client-pic .comment1 p,
+.client-sec .client .client-pic .comment2 p,
+.client-sec .client .client-pic .comment3 p,
+.client-sec .client .client-pic .comment4 p {
+    padding: 45px 0px 30px 45px;
+    width: 95%;
+    line-height: 38px;
+}
+
+.client-sec .client .client-pic .comment1 h6,
+.client-sec .client .client-pic .comment2 h6,
+.client-sec .client .client-pic .comment3 h6,
+.client-sec .client .client-pic .comment4 h6 {
+
+    padding: 0px 10px 0px 45px;
+}
+}
+@media only screen and (max-width:674px) {
+    .client-sec .client .client-pic .comment p {
+        padding: 80px 0px 30px 55px;
+        width: 84%;
+    }
+    
+}
+
+
+@media only screen and (max-width:411px) {
+    .client-sec .client .client-pic .comment p {
+        padding: 50px 0px 30px 55px;
+        width: 84%;
+        font-size: 24px;
+    }
+
+}
+
+@media only screen and (max-width:389px) {
+
+    .client-sec .client .client-pic .comment p {
+        padding: 50px 0px 45px 50px;
+    }
+
+    .client-sec .client .client-pic .comment h6 {
+        padding-left: 50px;
+        font-size: 13px;
+    }
+}
+
+
+
+@media only screen and (max-width:354px) {
+    .client-sec .client .client-pic .comment h6 {
+        padding-left: 40px;
+    }
+}
+
+@media only screen and (max-width:354px) {
+    .client-sec .client .client-pic .comment h6 {
+        padding-left: 33px;
+    }
+}
+
+/*--------------------------Client section end-------------------------*/
 
 
 
@@ -442,6 +809,20 @@ li {
     background-color: #c2cbc6;
     color: #e84545;
 }
+/*---------------------BOOTSTRAP MEDIAQUARY-------------------------*/
+
+@media only screen and (max-width:767px){
+    .download {
+        padding: 65px 0px 90px 0px;
+    }
+}
+@media only screen and (max-width:694px) {
+    .download .down-sec h2 {
+        font-size: 28px;
+    }
+}
+
+/*-------------------------Download section end---------------------------------*/
 
 
 /*---------------------------FOOTER SECTION---------------------*/
@@ -506,284 +887,26 @@ span {
     height: 15px;
 }
 
-/*----------------------------------------------------------*/
-
-
-
 /*---------------------BOOTSTRAP MEDIAQUARY-------------------------*/
 
-
-/*--------Medium Devise(max-width:1199px,minimum-width:992px)----------*/
-
-
-@media only screen and (max-width:1199px) {
-    .banner .banner-info h1 {
-        width: 95%;
-    }
-
-    .banner .banner-info p {
-        width: 70%;
-    }
-
-    .team-sec .team-pic p {
-        width: 93%;
-    }
-
-    .client-sec .client .client-pic .comment p {
-        padding: 80px 0px 30px 55px;
-        width: 96%;
-    }
-
-    .client-sec .client .client-pic .comment h6 {
-        padding-left: 55px;
-    }
-}
 
 /*--------small Devise(max-width:991px,minimum-width:768px)----------*/
 
 
 @media only screen and (max-width:991px) {
 
-    .menu {
-        display: block;
-    }
-
-    .menu:hover {
-        color: #e84545;
-    }
-       .nav-bar ul {
-        position: absolute;
-        top: 75px;
-        right: 0;
-        width: 100%;
-        text-align: center;
-        background-color: rgba(0, 0, 0, 0.3);
-        display: none;
-           padding: 20px 10px;
-    }
-
-    .nav-bar ul li {
-        padding: 10px 15px;
-        float: none;
-        color: white;
-        border-bottom: 1px solid #fff;
-    }
-
-    .nav-bar ul li a {
-        color: white;
-    }
-
-/*
-    .banner .header .nav-bar ul li {
-        display: none;
-    }
-*/
-
-    .banner .banner-info h1 {
-        width: 100%;
-    }
-
-    .banner .banner-info h1 {
-        font-size: 52px;
-    }
-
-    .banner .banner-info p {
-        width: 100%;
-    }
-
-    .icon-sec .icon-bar {
-        margin-top: 30px;
-    }
-
-    .icon-sec .icon-bar .icons-6 {
-        margin-bottom: 40px;
-    }
-
-    .icon-sec .icon-bar .icons-6 h6 {
-        margin: 25px 0px;
-    }
-
-    .icon-sec {
-        margin-bottom: 70px;
-    }
-
-    .picture-sec .pics img {
-        height: 100%;
-    }
-
-    .team-sec {
-        text-align: center;
-        margin-bottom: 50px;
-    }
-
-    .team-sec .team-pic img {
-        width: 40%;
-    }
-
-    .team-sec .team-pic p {
-        width: 100%;
-    }
-
-    .team-sec .team-pic ul {
-        margin-bottom: 40px;
-    }
-
     .footer-upper {
-        padding: 70px 0px 30px 0px;
+        padding: 40px 0px 30px 0px;
     }
 
     .footer-upper .footer {
         margin-bottom: 50px;
     }
+ 
+.footer-upper .ftr h4 {
+    padding-top: 30px;
+}
 }
 
-/*--------small Devise(max-width:767px,minimum-width:320px)----------*/
+/*---------------------------Footer section end-------------------------------*/
 
-
-@media only screen and (max-width:767px) {
-     .menu {
-        display: block;
-    }
-    .banner .banner-info h1 {
-        font-size: 42px;
-    }
-
-    .banner .banner-info h1 {
-        line-height: 65px;
-    }
-
-    .banner .banner-info h1 {
-        width: 94%;
-    }
-
-    .banner .banner-info p {
-        width: 90%;
-    }
-
-    .banner .banner-info p {
-        font-size: 20px;
-    }
-}
-
-@media only screen and (max-width:694px) {
-    .download .down-sec h2 {
-        font-size: 28px;
-    }
-}
-
-@media only screen and (max-width:674px) {
-    .client-sec .client .client-pic .comment p {
-        padding: 80px 0px 30px 55px;
-        width: 84%;
-    }
-    
-}
-
-
-@media only screen and (max-width:665px) {
-    .banner .banner-info p {
-        font-size: 18px;
-    }
-}
-
-@media only screen and (max-width:638px) {
-    .banner .banner-info h1 {
-        line-height: 58px;
-    }
-
-    .banner .banner-info h1 {
-        font-size: 40px;
-    }
-}
-
-@media only screen and (max-width:609px) {
-   
-    .banner .banner-info h1 {
-        font-size: 38px;
-    }
-
-    .banner .banner-info h1 {
-        line-height: 52px;
-    }
-
-    .banner .banner-info h1 {
-        width: 100%;
-    }
-
-    .banner .banner-info p {
-        font-size: 17px;
-    }
-
-    .banner .banner-info p {
-        width: 97%;
-    }
-}
-
-@media only screen and (max-width:547px) {
-     
-    .banner .banner-info h1 {
-        line-height: 48px;
-    }
-
-    .banner .banner-info h1 {
-        font-size: 34px;
-    }
-}
-
-@media only screen and (max-width:492px) {
-
-    .banner .banner-info h1 {
-        font-size: 32px;
-    }
-}
-
-@media only screen and (max-width:465px) {
-    .banner .banner-info h1 {
-        font-size: 30px;
-    }
-}
-
-@media only screen and (max-width:438px) {
-    .banner .banner-info h1 {
-        font-size: 28px;
-    }
-
-    .banner .banner-info h1 {
-        line-height: 45px;
-    }
-}
-
-@media only screen and (max-width:411px) {
-    .client-sec .client .client-pic .comment p {
-        padding: 50px 0px 30px 55px;
-        width: 84%;
-        font-size: 24px;
-    }
-
-}
-
-@media only screen and (max-width:389px) {
-
-    .client-sec .client .client-pic .comment p {
-        padding: 50px 0px 45px 50px;
-    }
-
-    .client-sec .client .client-pic .comment h6 {
-        padding-left: 50px;
-        font-size: 13px;
-    }
-}
-
-
-
-@media only screen and (max-width:354px) {
-    .client-sec .client .client-pic .comment h6 {
-        padding-left: 40px;
-    }
-}
-
-@media only screen and (max-width:354px) {
-    .client-sec .client .client-pic .comment h6 {
-        padding-left: 33px;
-    }
-}
